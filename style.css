@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  background-color: #0c122c;
+  height:100vh;
+
+}
+.bg-img{
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+.main{
+  position: relative;
+  top: 40%;
+  margin-top: -3.5rem;
+  margin-left: 20%;
+
+}
+.icons-holder {
+    height: 7rem;
+    width: 15rem;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    border-top-right-radius: 90px;
+    padding: 2rem;
+    display: inline-block;
+}
+.icon-set{
+  position: relative;
+top: 1.8rem;
+}
+.icon-set div {
+    background-color: hsl(229, 57%, 11%);
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+    width: 1.5rem;
+    margin: 3px;
+}
+.icon-set img{
+  height:15px;
+}
+#id3{
+  height: 24px;
+  position: relative;
+  top: -5px;
+}
+#id2{
+  height: 24px;
+  position: relative;
+  top: -5px;
+}
+.prg{
+padding :20px;
+padding-left: 30px;
+width: 25rem;
+height: 5.5rem;
+background-color: hsl(228, 56%, 26%);
+display: inline-block;
+border-radius: 7px;
+position: relative;
+bottom: -1.8rem;
+margin-left: 1rem;
+}
+.prog{
+  height: 1rem;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 25px;
+  width: 24rem;
+}
+.bar{
+  height: 0.65rem;
+  width: 81.5%;
+  background-image: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 25px;
+  position: relative;
+  top: 0.15rem;
+  left: 0.2rem;
+}
+.circle{
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: white;
+  border-radius: 31px;
+  position: absolute;
+  right: 0;
+  top: -0.05rem
+}
+.rest{
+  position: absolute;
+right: 2.3rem;
+top: -35px;
+}
+.rec{
+  text-align: center;
+  background-color: white;
+  border-radius: 7px;
+  border-bottom-right-radius: 0;
+}
+.tri{
+  width: 0;
+  height: 0;
+  border-right: 18px solid white;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  right: 0;
+}
+@media (max-width:375px) {
+  .main{
+    margin-left: 10%;
+  }
+.icon-set{
+  display: block;
+}
+.prg{
+  margin-left: 0;
+  width: 16rem;
+}
+.prog{
+  width:15rem;
+}
+.tri{
+  display:none;
+}
+.rest{
+  position: absolute;
+  top: 106px;
+  right: 5.5rem;
+}
+.rec{
+  border-bottom-right-radius: 7px;
+}
+}
